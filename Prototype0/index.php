@@ -25,10 +25,6 @@ $data = json_decode($getfile);
 					<td><?php echo $person[1]; ?></td>
 					<td><?php echo $person[2]; ?></td>
 					<td><?php echo $person[3]; ?></td>
-					<td>
-						<a href="update.php?id=<?php echo $index; ?>">Edit</a>
-						<a href="delete.php?id=<?php echo $index; ?>">Delete</a>
-					</td>
 				</tr>
 				<?php }?>
 			</table>
