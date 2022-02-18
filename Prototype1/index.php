@@ -30,6 +30,7 @@ foreach($data as $value){
 
 ?>
 <tr>
+    
     <td><?php echo $value[1] ?></td>
     <td><?php echo $value[2]?></td>
     <td><?php echo $value[3]?></td>
@@ -40,8 +41,11 @@ foreach($data as $value){
 </td>
 </tr>
 
+
+
 <?php }?>
 </table>
+
 
 </body>
 </html>
