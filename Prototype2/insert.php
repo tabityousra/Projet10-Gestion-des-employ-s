@@ -5,10 +5,10 @@
         $Prenom = $_POST['prenom'];
         $Nom = $_POST['nom'];
         $Age = $_POST['age'];
-        $person = array($firstName, $lastName, $age);
+        $person = array($Prenom, $Nom, $Age);
 
         // sql insert query
-        $sqlInsert= "INSERT INTO person(prenom,nom, age, ) 
+        $sqlInsert= "INSERT INTO person(prenom,nom, age ) 
                                 VALUES('$Prenom', '$Nom', '$Age')";
         
         mysqli_query($connect, $sqlInsert);
