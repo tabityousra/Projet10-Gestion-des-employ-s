@@ -3,7 +3,7 @@
 class EmployeManager {
 
 
-    // getEmplyoes =  pour affichage dans index.php
+    // getEmployes =  pour affichage dans index.php
     public function getEmployes($connectData){
         $getData = 'SELECT id,prenom,nom,age FROM person';
         $resulta = mysqli_query($connectData,$getData);
