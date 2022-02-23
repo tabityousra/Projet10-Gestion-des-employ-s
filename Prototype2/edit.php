@@ -26,7 +26,7 @@ include 'configuration.php';
         $Prenom = $_POST['prenom'];
         $Nom = $_POST['nom'];
         $Age = $_POST['age'];
-
+        
         $Update ="UPDATE person SET 
         prenom='$Prenom',nom='$Nom',age='$Age' WHERE id=$id ";
 
