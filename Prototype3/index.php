@@ -15,9 +15,10 @@ $data = $employeManager->getEmployes($connectData);
 
 <table>
             <tr>
+                <th>id</th>
                 <th>Prenom</th>
                 <th>Nom</th>
-                <th>Age</th>
+                <th>Date de naissance</th>
                 <th>Action</th>
             </tr>
 
