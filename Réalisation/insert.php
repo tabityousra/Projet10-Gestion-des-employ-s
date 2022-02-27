@@ -11,6 +11,10 @@
 	   $employe->setFirstName($_POST['prenom']);
 	   $employe->setLastName($_POST['nom']);
 	   $employe->setAge($_POST['age']);
+	   $employe->setFonction($_POST['fonction']);
+	   $employe->setPhoto($_POST['photo']);
+	   $employe->getSalaire($_POST['salaire']);
+	   $employe->getDepartement($_POST['departement']);
 
 	   $employeManager->insertEmploye($connectData,$employe);
 	   header("Location: index.php");
@@ -33,7 +37,7 @@
 
 </head>
 
-<body class="img js-fullheight" style="background-image: url(images/bg.jpg);">
+<body class="img js-fullheight" style="background-image: url(images/background.jpg);">
 
 	<section class="ftco-section">
 		<div class="container">
@@ -61,7 +65,7 @@
 							</div>
 							<div class="form-group">
 							Département: <input id="password-field" type="text" class="form-control" placeholder="Département "
-									required name="Département">
+									required name="departement">
 								
 							</div>
 							<div class="form-group">
