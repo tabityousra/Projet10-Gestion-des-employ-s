@@ -234,14 +234,7 @@ if(!empty($_POST)){
                                                         <span class="help-block" data-valmsg-for="cc-exp" data-valmsg-replace="true"></span>
                                                     </div>
                                                 </div>
-                                                <!-- <div class="col-6">
-                                                    <label for="x_card_code" class="control-label mb-1">Photo</label>
-                                                    <div class="input-group">
-                                                        <input id="x_card_code"  value= name="Photo" type="file" class="form-control cc-cvc "  
-                                                            data-val-cc-cvc="Please enter a valid security code" autocomplete="off">
-
-                                                    </div>
-                                                </div>    -->
+                                        
                                             </div>
                                             <div class="">
                                                 <button class="btn btn-info au-btn--block " type="submit"> Modifier </button>
@@ -285,9 +278,6 @@ if(!empty($_POST)){
     <script src="vendor/chartjs/Chart.bundle.min.js"></script>
     <script src="vendor/select2/select2.min.js">
     </script>
-
-    <!-- Main JS-->
-    <script src="js/main.js"></script>
 
 </body>
 
