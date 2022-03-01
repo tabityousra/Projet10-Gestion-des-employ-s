@@ -171,7 +171,7 @@
                                                 
                                                 <td> 
                                                     <a href="editer.php?id=<?php echo $value->getId() ?>">Éditer</a>
-                                                    <a href="suprimmer.php?id=<?php echo $value->getId() ?>">Supprime</a>
+                                                    <a href="suprimmer.php?id=<?php echo $value->getId() ?>">Supprimer</a>
                                                 </td>
                                             </tr>
                                            
