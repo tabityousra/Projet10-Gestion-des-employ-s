@@ -1,0 +1,85 @@
+.card{
+    margin-right: 12px !important;
+}
+.btn{
+    
+    margin-top: 12px;
+
+}
+.navbar-sidebar .navbar__list li a:hover {
+    color: #0c0c0c !important;
+}
+/* .has-sub{
+    color: black !important;
+} */
+
+.active{
+color: #0a111f !important;
+}
+
+.aIN{
+    color: #0a111f !important;
+}
+
+
+.rowTable{
+    margin-right: -78px !important;
+    margin-left: -73px !important;
+}
+.svgX{
+
+margin-top: 7px;
+}
+.menu-sidebar{
+    width: 200px !important;
+    background-color: rgb(171, 172, 177) !important;
+    
+}
+ .main-content{
+       margin-left: -76px;
+    margin-right: 41px;
+    /* background-color: white !important; */
+}
+.header-desktop{
+    left: 197px !important;
+    background-color: rgb(171, 172, 177) !important;
+}
+
+body {
+    font-size: 14px !important;
+}
+
+.titre{
+    color : #af2c2c !important;
+    margin-bottom: 50px;
+}
+/* .imgLogin{
+    font-size: 50px !important;
+} */
+
+/* recherch  */
+.recherchinput{
+    margin-left: 100px;
+     margin-bottom:80px;
+     margin-top:-10px
+     }
+     .login-content{
+        margin-top:-30px;
+       
+       }
+
+.table{
+    background-color: rgb(171, 172, 177) !important;
+    color: black !important;
+}
+.logo{
+    background-color: rgb(171, 172, 177) !important;
+}
+.btn{
+    background-color: rgb(37, 145, 55) !important;
+}
+.header-wrap{
+    color: #000000 !important;
+}
+
+
