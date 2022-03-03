@@ -115,7 +115,7 @@
                             </form>
                             
                             <div>
-                            <button><a href="index.php" class="A"> déconnecter</a></button>
+                            <a href="index.php" class="A"> déconnecter</a>
                             </div>
                             
                         </div>
