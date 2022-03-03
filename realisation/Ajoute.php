@@ -235,7 +235,7 @@ if(!empty($_POST)){
                                                     <div class="input-group">
                                                         <input id="x_card_code" name="Photo" type="file" class="form-control cc-cvc" value="" data-val="true" data-val-required="Please enter the security code"
                                                             data-val-cc-cvc="Please enter a valid security code" autocomplete="off"placeholder="chemin">
-
+            
                                                     </div>
                                                 </div>   
                                             </div>

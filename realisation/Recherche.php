@@ -186,7 +186,7 @@
                                                       <td><?= $value->getsalaire() ?></td>
                                                       <td><?= $value->getfonction() ?></td>
                                                       <td><?= $value->getphoto() ?></td>
-                                                
+            
                                                 
                                                 <td> 
                                                     <a href="editer.php?id=<?php echo $value->getId() ?>">Éditer</a>
